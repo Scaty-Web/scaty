@@ -1,7 +1,7 @@
 // Basit kullanıcı sistemi (localStorage tabanlı)
 // Moderatör hesabı: EmirSeyfOS
 
-const MOD_USERNAME = "EmirSeyfOS";
+const MOD_USERNAME = "lattesiber";
 
 const usernameInput = document.getElementById("usernameInput");
 const passwordInput = document.getElementById("passwordInput");
@@ -32,10 +32,10 @@ window.addEventListener("DOMContentLoaded", () => {
     } else {
         projects = [
             {
-                name: "ProjeKeşfet Tanıtım",
+                name: "Scaty Tanıtım",
                 url: "https://scratch.mit.edu/projects/000000000",
-                description: "Bu, ProjeKeşfet platformu için örnek bir tanıtım projesi.",
-                author: "Sistem"
+                description: "Scaty tanıtımı url'yi js'den değiştir",
+                author: "Admin"
             }
         ];
         saveProjects();
